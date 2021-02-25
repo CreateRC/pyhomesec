@@ -8,7 +8,7 @@ import urllib.request
 from cryptography.fernet import Fernet
 
 def encryption():
-    key = "QMAIoTiSuE413n-bnaU6K6GV7lsyGAHUtA8NOABLTic="
+    key = ""
     val = b"gAAAAABgL_ZlyFNSle9IMDA5GeIGOtdWNRXGSNnzqk3IWC2XR5mOwF5XL8vVFQ5UblgQj_Fk7m5n0zVPZh1XU0nKsdGOTRRNXQ=="
     f = Fernet(key)
     pw = str(f.decrypt(val))
